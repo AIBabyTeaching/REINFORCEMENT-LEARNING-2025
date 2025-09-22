@@ -1,5 +1,0 @@
-- MDP (Probability)
-    - Markov Dec.
-    - Monte Carlo.
-    - Policy controllers
-
