@@ -1,0 +1,4 @@
+# Install within Python 2.7 environment
+naoqi
+Flask==1.1.4
+simplejson==3.17.6

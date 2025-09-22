@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+include = "\\.py$"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra"
+testpaths = [
+    "labs/03_dynamic_programming_pi_vi/solutions/tests",
+]
+
+[tool.coverage.run]
+source = ["rl-labs-nao/common", "rl-labs-nao/labs"]
+branch = true
+parallel = true
+
+[tool.coverage.report]
+omit = ["*/__init__.py"]
+show_missing = true

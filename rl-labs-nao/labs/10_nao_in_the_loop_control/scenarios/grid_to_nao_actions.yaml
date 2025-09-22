@@ -1,0 +1,17 @@
+# Mapping from discrete gridworld actions to NAO bridge commands
+UP:
+  say: "Moving up"
+  head: {yaw: 0.0, pitch: -0.2}
+  posture: StandInit
+DOWN:
+  say: "Moving down"
+  head: {yaw: 0.0, pitch: 0.2}
+  posture: Crouch
+LEFT:
+  say: "Moving left"
+  head: {yaw: 0.3, pitch: 0.0}
+  walk: {dx: 0.0, dy: 0.05, dtheta: 0.0}
+RIGHT:
+  say: "Moving right"
+  head: {yaw: -0.3, pitch: 0.0}
+  walk: {dx: 0.0, dy: -0.05, dtheta: 0.0}
