@@ -18,3 +18,5 @@ assets/data/*.csv
 .pytest_cache/
 htmlcov/
 coverage.xml
+old content/
+old content24/
