@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 try:
     from naoqi import ALProxy
+    print("ALProxy Loaded Successfully at:",ALProxy)
 except ImportError:
     ALProxy = None  # type: ignore
 
